@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Interactive Portfolio Webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/42abec91cb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logotru.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#sdg">SDG No. 3</a></li>
+                <li><a href="#contact">Contact </a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Information Technology Student</p>
+            <h1> Hi, I'm Allana! </h1>
+            <p>Hi, I'm Allana Maryse Mendoza, a 1st-year IT student <br>
+                at Batangas State University. I'm passionate about <br>
+                using my skills and expertise to contribute to <br> achieving
+                 SDG No. 3, promoting health and wellness. </p>
+        </div>
+    </div>
+</div>
+<!-- ------------about--------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/prof, photo.jpeg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+            <p>I’m Allana Maryse Mendoza, an 18-year-old IT student with a strong passion for learning and growth. 
+                I am committed to honing my skills and leveraging them to support the achievement of SDG No. 3, 
+                focusing on health and well-being for all.Below, I proudly present my skills and experiences, which 
+                reflect my dedication and potential to make a meaningful impact.</p>
+
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experiences')">Experiences</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Basic Computer Literacy</span><br>Familiarity with common software applications (e.g., MS Office, Google Suite).</li>
+                        <li><span>Web Development Basic</span><br>Familiarity with HTML, CSS, and possibly JavaScript.</li>
+                        <li><span>Collaboration and Communication</span><br>Basic skills in writing reports and delivering presentations.</li>
+                        <li><span>Cyber Security Awareness</span><br>Understanding basic security practices (e.g., strong passwords, avoiding phishing scams).
+                        </li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="experiences">
+                    <ul>
+                        <li><span>2024</span><br>Internship at the Radyo Totoo Tech Department</li>
+                        <li><span>2023</span><br>Seminar on Media Literacy Training</li>
+                        <li><span>2022</span><br>Training on Basic Computer Literacy</li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------project---------- -->
+ <div id="project">
+    <div class="container">
+        <h1 class="sub-title"> My Projects</h1>
+        <div class="projects-list">
+            <div class="project">
+                <img src="images/proj1.jpg" >
+                <div class="layer">
+                    <h3>Web Design with HTML & CSS</h3>
+                    <p>A dynamic web portfolio built with HTML and CSS, highlighting
+                         a selected Sustainable Development Goal</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/truproj22.jpg" >
+                <div class="layer">
+                    <h3>Macro-Enabled Excel & Dynamic MS Word Documents</h3>
+                    <p>A project showcasing automated Excel solutions using macros and dynamic MS Word documents,
+                        aimed at enhancing efficiency in data processing and document management.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/career girl aesthetic • business • corporate • work • office • that girl • work from home • remote (1).jpg" >
+                <div class="layer">
+                    <h3>Creative Design Projects with Canva</h3>
+                    <p>A collection of visually engaging projects created using Canva, including presentations, infographics,
+                         and other design materials.</p>
+                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+
+    </div>
+ </div>
+
+
+ <!-- ------------sdg------------ -->
+  <div id="sdg">
+    <div class="container">
+        <div class="row">
+            <div class="sdg-col-1">
+                <img src="images/sdg.img.jpg">
+            </div>
+            <div class="sdg-col-2">
+                <h1 class="sub-title">Sustainable Development Goal No.3</h1>
+                <p>SDG No. 3, which focuses on ensuring good health and well-being for all, is a crucial goal in creating a sustainable and prosperous future for 
+                    everyone. With the skills I have developed, such as designing impactful presentations, infographics, and other creative materials, I am confident 
+                    that I can contribute meaningfully to fulfilling this important goal.By using these tools, I can help raise awareness, educate communities, and
+                    promote initiatives that support health and wellness. Moreover, through my projects, I can also support the achievement of other SDGs by spreading
+                    vital information on topics such as disease prevention, mental health, and access to healthcare. The power of communication and education cannot be 
+                    underestimated in achieving SDG No. 3, and I believe my skills can help make a significant difference. Ultimately, SDG No. 3 is essential for the 
+                    well-being of individuals and communities worldwide, and it is a goal that everyone should strive to achieve. Together, with creativity, innovation, 
+                    and collaboration, we can work towards ensuring that good health is a reality for all.</p>
+            </div>
+        </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- -----------contact--------- -->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>allanamendozam@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>09925811104</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Allana. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+   </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+   
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+    
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwTsxzI9LqJebMMaggkXUB8PBIznU47HISg-4aXU4CbXkMccBCD21Vrf2TKEWwJhZ8Z/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfuly"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
